@@ -1,0 +1,18 @@
+{
+  "timeZone": "America/Los_Angeles",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Gmail",
+        "version": "v1",
+        "serviceId": "gmail"
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/contacts.readonly",
+    "https://mail.google.com/"
+  ],
+  "runtimeVersion": "V8"
+}
